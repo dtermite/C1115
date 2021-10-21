@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html">Inicio</a>
+            <a href="contacto.html">Contacto</a>
+            <a href="img/imagenes.html">Galeria</a>
+            <a href="https://google.com.ar" target="_blank">Ir a Google</a>
+
+        </nav>
+    </header>
+    <main>
+        <h1>Contacto</h1>
+        <p>Para contacto complete el formulario</p>
+
+        <form action="validar.html">
+            <div>
+                <label for="nombre">Nombre</label>
+                <input id ="nombre" name="nombre" type="text" placeholder="Ingrese Nombre y Apellido..." minlength="3" maxlength="50" required autofocus >
+            </div>
+           
+            
+            <div>
+                <label for="pass">Contraseña</label>
+                <input id="pass" name="password" type="password" required>
+
+           </div>
+
+           <div>
+                <label for="mail">Mail</label>
+                <input id="mail" name="mail" type="email" placeholder="ejemplo@mail.com" required>
+          </div>
+          <div>
+            <fieldset>
+                <legend>Envie o limpie el formulario</legend>
+                <input id="enviar" type="submit" value="Enviar">
+                <input id="reset" type="reset" value="Limpiar">
+            </fieldset>
+        </div>
+
+        </form>
+    </main>
+    
+</body>
+</html>

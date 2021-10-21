@@ -1,0 +1,58 @@
+
+.imgpcipal{
+    display: flex !important;
+    background-image: url(imagenes/ba1.jpg);
+    /*filter:brightness(60%) !important;*/
+    background-position: center !important;   
+    background-size: 100% 95%;
+    background-repeat: no-repeat;
+    padding-left: 50% !important;
+    width: 100%;
+    height:85vh;
+}
+.textoimg{
+	flex-direction: row-reverse;
+	flex-wrap: nowrap ;
+	justify-content: flex-start;
+	align-items: center;
+    color: hsl(240, 100%, 99%);
+    font-weight: bold;
+    width: auto;
+    margin:auto;
+    text-align: right;
+    font-size: 18px;
+}
+.botonOrador{
+    border: 1px solid white;
+    text-decoration: none;
+    padding: 10px;
+    color:hsl(240, 100%, 99%);
+    border-radius: 8px;
+    font-weight: bold;
+    display:inline-block;
+    margin-top:30px;
+}
+.botonTicket{
+    background-color:rgb(47, 190, 111);
+    border: none;
+    text-decoration: none;
+    margin-left: .5rem;
+    padding: 10px;
+    color:hsl(240, 100%, 99%);
+    border-radius: 8px;
+    font-weight: bold;
+    display:inline-block;
+    margin-top:30px;
+}
+.section{
+    height: 60vh;
+}
+
+.div-der{
+    background-image: url(imagenes/honolulu.jpg);
+    background-size: cover;
+}
+.btnEnviar{
+    background-color: rgb(154, 214, 43);
+    color: white;
+}

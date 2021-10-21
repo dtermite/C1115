@@ -1,0 +1,14 @@
+div{
+    overflow: hidden;
+    width: 15%;
+    background-color: red;
+    color: yellow;
+    font-size: 50px;
+    float: left;
+    height: 300px;
+    border:solid white 7px;
+}
+.negro{
+    background-color: black;
+    color: white;
+}
