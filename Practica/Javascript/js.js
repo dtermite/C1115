@@ -13,6 +13,15 @@ do{
 } 
 while (y>0);
 */
+function setColor(){
+    var pagina=document.body;
+    pagina.style.backgroundColor=pagina.style.backgroundColor=="blue" ? "green" : "blue"
+}
+
+function stopChangColor(){
+    clearInterval(temporizador);
+}
+
 
 //Eventos del mousse
 const boton=document.querySelector('.boton');
@@ -49,3 +58,34 @@ window.addEventListener("keyup", function(event) {
 window.addEventListener('load',function(){
     console.log("La pagina se ha cargado");
 })
+
+//Eventos multimedia
+const video=document.querySelector(".bostonVideo")
+
+video.addEventListener("play", function(){
+    console.log("El video ha iniciado");
+})
+
+video.addEventListener("seeking", function(){
+    console.log("El video se se esta buscando",this.currentTime);
+})
+
+video.addEventListener("ended", function(){
+    let resultado=confirm("Desea seguir viendo el video?");
+    if(resultado){
+        video.play();
+    }else{
+        window.location="http://www.google.com";
+    }
+})
+
+//Temporizadores y timers
+//Setinterval **ocurre indefinidamente**
+var temporizador=setInterval(function(){
+    setColor();
+},2000)
+
+//SetTimeOut **ocurre solo una vez**
+setTimeout(function(){
+    setColor();
+},3000)
