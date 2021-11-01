@@ -55,4 +55,20 @@
 .btnEnviar{
     background-color: rgb(154, 214, 43);
     color: white;
+    border-style: none;
+    height: 3em;
+    border-radius: 5px;
+}
+.texto-ticket{
+    color: rgb(66, 218, 52) !important;
+}
+.sombra:hover{
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px gray;
+}
+.celeste{
+    background-color: rgb(179, 232, 248);
+    color: blue;
+    height: 3em;
+    border-radius: 5px;
 }
