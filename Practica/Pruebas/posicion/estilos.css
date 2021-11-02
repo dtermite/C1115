@@ -1,0 +1,8 @@
+.centrar{
+    width: 40%;
+    border: 3px;
+    border-style: solid;
+    border-color: blue;
+    margin: auto;
+    text-align: center
+}
