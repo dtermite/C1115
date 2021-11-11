@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Practica/BootsrapFlex/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/Practica/BootsrapFlex/css/estilos.css">
+    <title>Flexbox </title>
+</head>
+<body>
+    <div class="container">
+        <!--
+            .d-flex
+            .d-inline-flex
+
+            .d-sm-flex (small flex)
+            .d-sm-inline-flex (small en linea)
+            .d-md-flex (medium flex)
+            .d-md-inline-flex (medium en linea)
+            .d-lg-flex (large flex)
+            .d-lg-inline-flex (large en linea)
+            .d-xl-flex (extra large flex)
+            .d-xl-inline-flex (extra large en linea)
+
+        -->
+
+        <div class="row my5">
+            <div class="col">
+                <h4>Tipos de display Flex</h4>
+                <hr>
+                <!--Ocupa toda la linea o bloque-->
+                <div class="bg-primary text-white p-3 d-flex">
+                    <p class="mb-0">Display Flex <strong>.d-Flex</strong></p>
+                </div>
+                <br>
+                <!--Ocupa solo el largo del texto que contiene-->
+                <div class="bg-primary text-white p-3 d-inline-flex">
+                    <p class="mb-0">Display in line Flex <strong>.d-inline-Flex</strong></p>
+                </div>
+        <div class="row my-5">
+            <div class="col">
+
+                <!--
+                    Variantes
+                    .flex-row
+                    .flex-row-reverse
+
+                    .flex-column
+                    .flex-colum-reverse
+
+                    sm | md | lg | xl | xxl
+                    .flex-*-row
+                    .flex-*-row-reverse
+                    .flex-*-column
+                    .flex-*-column-reverse
+                -->
+
+                <h4>Direction</h4>
+                <hr>
+                <!--Solo abarcan lo que necesitan en linea es la opcion por defecto, si no se indica lo asume-->
+                <p>. flex-row</p>
+                <div class="contenedor d-flex flex-row">
+                    <div>Caja 1</div>
+                    <div>Caja 2</div>
+                    <div>Caja 3</div>
+                </div>
+                <!--Cambia el floje de las cajas de derecha a izquierda-->
+                <p>. flex-row-reverse</p>
+                <div class="contenedor d-flex flex-row-reverse">
+                    <div>Caja 1</div>
+                    <div>Caja 2</div>
+                    <div>Caja 3</div>
+                </div>
+                <!--coloca las cajas en columnas y ocupa todo el ancho-->
+                <p>. flex-column</p>
+                <div class="contenedor d-flex flex-column">
+                    <div>Caja 1</div>
+                    <div>Caja 2</div>
+                    <div>Caja 3</div>
+                </div>
+                <p>. flex-column-reverse</p>
+                <div class="contenedor d-flex flex-column-reverse">
+                    <div>Caja 1</div>
+                    <div>Caja 2</div>
+                    <div>Caja 3</div>
+                </div>
+            </div>
+        
+        <div class="row my-5">
+            <div class="col">
+                <h4>Justify content</h4>
+                <hr>
+                <!--Alinea los hijos a la izquierda-->
+                <p>.junstify-content-star</p>
+                <div class="contenedor d-flex justify-content-star">
+                    <div>Caja 1</div>
+                    <div>Caja 2</div>
+                    <div>Caja 3</div>
+                </div>
+
+                <!--Alinea los hijos al centro-->
+                <p>.junstify-content-center</p>
+                <div class="contenedor d-flex justify-content-center">
+                    <div>Caja 1</div>
+                    <div>Caja 2</div>
+                    <div>Caja 3</div>
+                </div>
+
+                <!--Alinea los hijos al final-->
+                <p>.junstify-content-end</p>
+                <div class="contenedor d-flex justify-content-end">
+                    <div>Caja 1</div>
+                    <div>Caja 2</div>
+                    <div>Caja 3</div>
+                </div>
+
+                <!--coloca el espacio sobrante entre las cajas-->
+                <p>.justify-content-between</p>
+                <div class="contenedor d-flex justify-content-between">
+                    <div>Caja 1</div>
+                    <div>Caja 2</div>
+                    <div>Caja 3</div>
+                    <div>Caja 4</div>
+                </div>
+
+                <!--coloca el a la derecha y otro a la izquierda de cada elemento-->
+                <p>.justify-content-around</p>
+                <div class="contenedor d-flex justify-content-around">
+                    <div>Caja 1</div>
+                    <div>Caja 2</div>
+                    <div>Caja 3</div>
+                    <div>Caja 4</div>
+                </div>
+
+                <!--distribuye proporcionados todos los elementos-->
+                <p>.justify-content-evenly</p>
+                <div class="contenedor d-flex justify-content-evenly">
+                    <div>Caja 1</div>
+                    <div>Caja 2</div>
+                    <div>Caja 3</div>
+                    <div>Caja 4</div>
+                </div>
+
+            </div>
+
+        </div>
+        </div>
+
+            </div>
+
+        </div>
+
+    </div>
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,12 @@
+.contenedor{
+    margin-bottom: 20px;
+    background-color: rgb(0, 89, 255);
+    color: white; 
+    min-height: 100px;
+}
+
+.contenedor > div{
+    background-color: rgba(255, 255, 255, .2);
+    padding: 15px 20px;
+    border: 1px solid blue;
+}
